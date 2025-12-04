@@ -25,12 +25,16 @@ namespace ComparerNombres
             InitializeComponent();
         }
 
+
+
         //Gestionnaire d'événement pour comparer deux nombres
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             //Variables
             int premierNombre = 0;
             int deuxiemeNombre = 0;
+
+            bool nouvelleModification = true;
 
             try
             {
